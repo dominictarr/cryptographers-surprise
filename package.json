@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git://github.com/dominictarr/cryptographers-surprise.git"
   },
+  "bin": "./index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
