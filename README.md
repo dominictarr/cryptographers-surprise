@@ -2,13 +2,17 @@
 
 A cryptoenthusiast can use this to securely guess their birthday surprise without ruining the anticipation for the other party.
 
-Alice tells Bob that she is giving him a secret birthday surprise,
-Bob thinks he knows what it is, but if he let on and correctly guessed
-the gift early, Alice may unintentionally confirm the guess.
-Bob _could_ place his guess inside an envelope, and give it to Alice,
-to be opened at the same time as the gift is presented.
+Bob is giving Alice a secret birthday surprise. He has revealed to Alice
+that a surprise is coming - to create suspense.
+Alice thinks she knows what it is, but she told Bob what she thought it
+is the gift early, Bob may unintentionally confirm it
+(ruining the anticipation) or change the surprise.
+Alice _could_ place her guess inside an envelope, and give it to Bob,
+(to be opened at the same time as the gift is presented)
 However, Alice and Bob are currently on opposite sides of the planet
-so a letter is not convenient. 
+so a letter is not convenient. Also, they are both cryptography enthusiasts,
+so they are only interested in actual envelopes in so far as they are
+useful for explaining cryptosystems.
 
 ``` js
 //Alice
