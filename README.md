@@ -2,17 +2,16 @@
 
 A cryptoenthusiast can use this to securely guess their birthday surprise without ruining the anticipation for the other party.
 
-Bob is giving Alice a secret birthday surprise. He has revealed to Alice
-that a surprise is coming - to create suspense.
-Alice thinks she knows what it is, but she told Bob what she thought it
-is the gift early, Bob may unintentionally confirm it
-(ruining the anticipation) or change the surprise.
+Bob is giving Alice a secret birthday surprise.
+He has revealed to Alice that a surprise is coming, for suspense.
+Alice thinks she knows what it is, but if she revealed her guess
+Bob may unintentionally confirm it (ruining the anticipation).
 Alice _could_ place her guess inside an envelope, and give it to Bob,
-(to be opened at the same time as the gift is presented)
-However, Alice and Bob are currently on opposite sides of the planet
-so a letter is not convenient. Also, they are both cryptography enthusiasts,
-so they are only interested in actual envelopes in so far as they are
-useful for explaining cryptosystems.
+(so that after the gift was received she could prove that she
+had correctly guessed it).
+However, Alice and Bob  are both cryptography enthusiasts,
+only use envelopes as metaphore for explaining cryptosystems.
+Alice would rather hide & proveher guess cryptographically.
 
 ``` js
 //Alice
@@ -30,8 +29,8 @@ var cipherguess = CryptographersSurprise(plainguess, key)
 
 Alice now cannot change her guess, but Bob cannot see what it is yet.
 
-Later, bob gives her present to alice, and alice can reveal that she
-had guessed correctly.
+Later, Bob gives his present to Alice, and Alice can reveal her guess,
+(hopefully confirming that she guessed correctly).
 
 ``` js
 
