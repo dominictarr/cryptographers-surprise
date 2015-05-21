@@ -11,7 +11,7 @@ Alice _could_ place her guess inside an envelope, and give it to Bob,
 had correctly guessed it).
 However, Alice and Bob  are both cryptography enthusiasts,
 only use envelopes as metaphore for explaining cryptosystems.
-Alice would rather hide & proveher guess cryptographically.
+Alice would rather secure her guess cryptographically.
 
 ``` js
 //Alice
